@@ -1,0 +1,97 @@
+.navbar__titulo {
+    color: var(--branco);
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin: 0!important;
+
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.navbar__titulo:hover {
+    color: #dfdfdf;
+}
+
+.nav__button-hamburguer {
+    border: none!important;
+    color: transparent!important;
+    padding: 0!important;
+}
+
+.icon__hamburguer {
+    background-image: url(../../../img/icon/menu-hamburguer.svg);
+}
+
+.navbar__lateral {
+    background-color: #455d60;
+    border: none!important;
+
+    width: 100%!important;
+}
+
+.item__link {
+    color: var(--branco)!important;
+    font-size: .9rem;
+    font-weight: 700;
+
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.item__link:hover {
+    color: #dfdfdf!important;
+}
+
+.item__link:active {
+    color: #afaeae!important;
+}
+
+.nav__btn {
+    color: var(--branco)!important;
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.nav__btn--login {
+    background-color: transparent!important;
+    border: transparent!important;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.nav__btn--login:hover {
+    color: #dfdfdf!important;
+}
+
+.nav__btn--login:active {
+    color: #afaeae!important;
+}
+
+.nav__btn--join {
+    background-color: var(--verde-aspargo)!important;
+    border: none;
+}
+
+.nav__btn--join:hover {
+    background-color: #769b5c!important;
+    color: #f1f1f1!important;
+}
+
+.nav__btn--join:active {
+    background-color: #688154!important;
+    color: #ffffff!important;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar__titulo {
+        color: var(--branco);
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+        margin: 0!important;
+    
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+    }
+}

@@ -1,0 +1,42 @@
+.dados {
+    background: var(--azul-indigo);
+}
+
+.dados__info {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.info__numero {
+    color: var(--verde-aspargo);
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.info__descricao {
+    font-size: .5rem;
+    font-weight: 700;
+    line-height: 1rem;
+    width: 3.125rem;
+}
+
+@media screen and (min-width: 768px) {
+    .info__numero {
+        font-size: 2.625rem;
+        line-height: 4rem;
+    }
+    
+    .info__descricao {
+        font-size: .7rem;
+        line-height: 1.2rem;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .dados__info {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }  
+}

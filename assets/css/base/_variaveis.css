@@ -1,0 +1,18 @@
+:root {
+    /* Cores */
+    --azul-bebe: #8EC2F2;
+    --azul-celeste: #2A7CC7;
+    --azul-indigo: #252B42;
+    --azul-petroelo: #2D4059;
+    --branco: #ffffff;
+    --cinza: #737373;
+    --cinza-claro: #BDBDBD;
+    --laranja: #FFAB71;
+    --preto: #000000;
+    --rose: #FF7171;
+    --verde-aspargo: #96BB7C;
+    --verde-menta: #2DC071;
+
+    /* Fontes */
+    --montserrat: 'Montserrat', sans-serif;
+}

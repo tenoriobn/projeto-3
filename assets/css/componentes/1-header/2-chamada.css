@@ -1,0 +1,58 @@
+header {
+    background-image: url(../../../img/banner/background-chamada.svg);
+    
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+
+    position: relative;
+}
+
+.header__camada {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.chamada__join {
+    color: var(--verde-aspargo);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.chamada__titulo {
+    font-size: 1.825rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+
+    width: 18rem;
+}
+
+.chamada__paragrafo {
+    font-size: .9rem;
+    line-height: 1.675rem;
+    width: 18rem;
+}
+
+@media screen and (min-width: 768px) {    
+    .chamada__titulo {
+        font-size: 3.025rem;
+        line-height: 4rem;
+        width: 30rem;
+    }
+    
+    .chamada__paragrafo {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        width: 30rem;
+    }
+}
+
+@media screen and (min-width: 992px) {    
+    .chamada__titulo {
+        font-size: 3.625rem;
+        line-height: 5rem;
+        width: 42rem;
+    }
+}

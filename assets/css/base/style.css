@@ -1,0 +1,23 @@
+@import url(../../css/base/_variaveis.css);
+@import url(../../css/componentes/1-header/1-navbar.css);
+@import url(../../css/componentes/1-header/2-chamada.css);
+@import url(../../css/componentes/2-main/0-conteudo.css);
+@import url(../../css/componentes/2-main/1-apresentacao.css);
+@import url(../../css/componentes/2-main/2-informacao.css);
+@import url(../../css/componentes/2-main/3-dados.css);
+@import url(../../css/componentes/2-main/4-departamento.css);
+@import url(../../css/componentes/2-main/5-preco.css);
+@import url(../../css/componentes/2-main/6-feedback.css);
+@import url(../../css/componentes/3-footer/1-rodape.css);
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--azul-petroelo);
+    color: var(--branco);
+    font-family: var(--montserrat);
+    font-weight: 400;
+    line-height: 1.25rem;
+}

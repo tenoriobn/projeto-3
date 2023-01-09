@@ -1,0 +1,142 @@
+.departamento {
+    padding-top: 10rem!important;
+    padding-bottom: 5rem!important;
+}
+
+.deparamento__intro {
+    color: var(--verde-aspargo);
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.departamento__subtitulo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 3.125rem;
+}
+
+.departamento__paragrafo {
+    font-size: .775rem;
+}
+
+.container__card {
+    padding-top: 5rem;
+    
+}
+
+.card__paragrafo-top {
+    color: var(--verde-aspargo)!important;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.icon__avaliacao {
+    background-image: url(../../../img/icon/card-avaliacao.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    display: inline-flex;
+    height: 1.625rem;
+    width: 3.125rem;
+}
+
+.card__subtitulo {
+    color: var(--azul-indigo);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.card__paragrafo-conteudo {
+    color: var(--cinza);
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.icon__download {
+    background-image: url(../../../img/icon/card-download.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    display: inline-flex;
+    height: 1rem;
+    width: 1rem;
+}
+
+.card__paragrafo-download {
+    color: var(--cinza);
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.card__paragrafo-preco {
+    color: var(--cinza-claro);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.card__paragrafo-color {
+    color: var(--laranja);
+}
+
+.card__btn {
+    background-color: transparent!important;
+    border-color: var(--verde-aspargo)!important;
+    color: var(--verde-aspargo)!important;
+
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.card__btn:hover {
+    background-color: var(--verde-aspargo)!important;
+    color: var(--branco)!important;
+}
+
+@media screen and (min-width: 375px) {
+    .departamento__subtitulo {
+        font-size: 1.9rem;
+        font-weight: 700;
+        line-height: 3.125rem;
+    }
+    
+}
+
+@media screen and (min-width: 425px) {
+    .departamento__subtitulo {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 3.125rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .deparamento__intro {
+        color: var(--verde-aspargo);
+        font-size: .875rem;
+        font-weight: 700;
+        line-height: 1.5rem;
+    }
+    
+    .departamento__subtitulo {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 3.125rem;
+    }
+    
+    .departamento__paragrafo {
+        font-size: .875rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .departamento {
+        padding-top: 10rem!important;
+        padding-bottom: 10rem!important;
+    }
+}

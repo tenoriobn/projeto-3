@@ -1,0 +1,129 @@
+.apresentacao {
+    padding-top: 10rem!important;
+    padding-bottom: 5rem!important;
+}
+
+.icon__divisao {
+    display: inline-flex;
+
+    background-image: url(../../../img/icon/subtitulo-traco.svg);
+    background-repeat: no-repeat;
+
+    width: 94px;
+    height: 7px;
+}
+
+.apresentacao__subtitulo {
+    font-size: 1.525rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    width: 20rem;
+}
+
+.apresentacao__paragrafo {
+    font-size: 0.775rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.link-saber--mais {
+    color: var(--verde-aspargo);
+    font-size: 0.775rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    
+    position: relative;
+}
+
+.link-saber--mais:hover {
+    font-size: .975rem!important;
+    color: var(--verde-aspargo);
+}
+
+.link-seta {
+    background-image: url(../../../img/icon/seta.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+
+    display: inline-flex;
+
+    height: 16px;
+    width: 9px;
+
+    position: absolute;
+    left: 120%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.apresentacao__card {
+    width: 18.063rem;
+}
+
+.card-imagem {
+    height: 76px;
+    width: 70px;
+}
+
+.card-titulo {
+    color: var(--azul-indigo);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.card__icon-divisao {
+    display: block;
+
+    background-image: url(../../../img/icon/subtitulo-traco.svg);
+    background-position: center!important;
+    background-repeat: no-repeat;
+
+    width: 50px;
+    height: 2px;
+
+}
+
+.card-texto {
+    color: var(--cinza);
+    font-size: 0.875rem;
+    width: 10rem;
+}
+
+@media screen and (min-width: 375px) {
+    .apresentacao__subtitulo {
+        font-size: 1.725rem;
+        line-height: 2.5rem;
+        width: 22rem;
+    }
+
+    .apresentacao__paragrafo {
+        font-size: 0.875rem;
+        width: 22rem;
+    }
+
+    .link-saber--mais {
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .apresentacao__subtitulo {
+        font-size: 2.5rem;
+        line-height: 3.125rem;
+        width: 32rem;
+    }
+
+    .apresentacao__paragrafo {
+        font-size: .915rem;
+        line-height: 1.35rem;
+        width: 22rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .apresentacao {
+        padding-top: 10rem!important;
+        padding-bottom: 6.772rem!important;
+    }
+}

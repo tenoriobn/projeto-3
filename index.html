@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Medical Genuin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/base/style.css">
+</head>
+<body>
+    <header class="cabecalho position-relative">
+        <div class="header__camada">
+                <nav class="navbar pt-4 pb-4 navbar-expand-lg">
+                    <div class="container">
+                        <h2 class="navbar-brand navbar__titulo pe-4" href="#">MedicalGenuin</h2>
+                        
+                        <button class="navbar-toggler nav__button-hamburguer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon icon__hamburguer"></span>
+                        </button>
+        
+                        <div class="navbar__lateral offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header navbar__lateral-itens align-items-center justify-content-between pt-4 pb-4">
+                                <h2 class="navbar-brand navbar__titulo m-0 p-0"  href="#">MedicalGenuin</h2>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            
+                            <nav class="offcanvas-body d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between gap-4 gap-lg-0 position-relative">
+                                <ul class="navbar-nav mb-2 mb-lg-0 gap-4 align-items-center">
+                                    <li class="nav-item"><a class="item__link nav-link" aria-current="page" href="#">Início</a></li>
+                                    <li class="nav-item"><a class="item__link nav-link" href="#">Produto</a></li>
+                                    <li class="nav-item"><a class="item__link nav-link" href="#">Preço</a></li>
+                                    <li class="nav-item"><a class="item__link nav-link" href="#">Contato</a></li>
+                                </ul>
+
+                                <form class="d-flex flex-column flex-lg-row align-items-center gap-4 pt-5 pt-lg-0" role="search">
+                                    <a href="#" class="btn nav__btn nav__btn--login" role="button" data-bs-toggle="button">Login</a>
+                                    <a href="#" class="btn nav__btn nav__btn--join btn-primary ps-4 pe-4 pt-3 pb-3 text-uppercase" role="button" data-bs-toggle="button">Contratar</a>
+                                </form>
+                            </nav>
+                        </div><!-- Navbar-lateral -->
+                    </div><!-- Container -->
+                </nav>
+
+                <section class="chamada container">
+                    <div class="chamada__container d-flex flex-column align-items-center position-absolute top-50 start-50 translate-middle">
+                        <h5 class="chamada__join m-0 pb-5 text-center">Junte-se a nós</h5>
+                        <h1 class="chamada__titulo m-0 pb-5 text-center">Conheça o melhor hospital</h1>
+                        <p class="chamada__paragrafo pb-5 text-center m-0">Estamos sempre totalmente focados em ajudar seu filho e você</p>
+                    
+                        <a href="#" class="btn nav__btn nav__btn--join btn-primary ps-4 pe-4 pt-3 pb-3 text-uppercase" role="button" data-bs-toggle="button">Junte-se a nós</a>
+                    </div><!-- Chamada container -->
+                </section>
+        </div><!-- Camada Header -->
+    </header>
+
+    <main class="conteudo">  
+        <section class="container apresentacao d-flex flex-column flex-xl-row align-items-center justify-content-xl-between">
+            <div class="d-flex flex-column align-items-center align-items-xl-start">
+                <span class="icon__divisao mb-5"></span>
+                <h2 class="apresentacao__subtitulo mb-5 text-center text-xl-start">Nossos médicos são especializados em você</h2>
+                <p class="apresentacao__paragrafo mb-5 text-center text-xl-start">Problemas tentando resolver o conflito entre os dois grandes domínios da física clássica: a mecânica newtoniana</p>
+                <a href="#" class="link-saber--mais mb-5 text-decoration-none text-xl-start">Saber mais <span class="link-seta ps-4"></span></a>
+            </div><!-- Container textos -->    
+            
+            <div class="d-flex flex-wrap justify-content-center align-items-center gap-4">
+                <div class="d-md-flex d-xl-flex flex-xl-column gap-4">
+                    <article class="card apresentacao__card p-5">
+                        <img src="assets/img/icon/quick.svg" class="card-imagem" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-titulo m-0 pt-3 pb-3">Exame rápido</h5>
+                            <span class="card__icon-divisao"></span>
+                            <p class="card-texto m-0 pt-3">O acúmulo gradual de informações sobre</p>
+                        </div><!-- Card -->
+                    </article>
+
+                    <article class="card apresentacao__card mt-4 mt-md-0 p-5">
+                        <img src="assets/img/icon/dental.svg" class="card-imagem" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-titulo m-0 pt-3 pb-3">Serviços de qualidade</h5>
+                            <span class="card__icon-divisao"></span>
+                            <p class="card-texto m-0 pt-3">O acúmulo gradual de informações sobre</p>
+                        </div><!-- Card -->
+                    </article>
+                </div><!-- Container Cards -->
+
+                <div>
+                    <article class="card apresentacao__card mt-lg-0 p-5">
+                        <img src="assets/img/icon/emergency.svg" class="card-imagem" alt="...">
+                        <div class="card-body p-0">
+                            <h5 class="card-titulo m-0 pt-3 pb-3">Caso de emergência</h5>
+                            <span class="card__icon-divisao"></span>
+                            <p class="card-texto m-0 pt-3">O acúmulo gradual de informações sobre</p>
+                        </div><!-- Card -->
+                    </article>
+                </div><!-- Container Cards -->
+            </div><!-- Container Flex-Box -->
+        </section>
+        
+        <section class="container informacao d-xl-flex justify-content-xl-between align-items-xl-center">            
+            <div class="d-flex flex-column align-items-center align-items-xl-start">
+                <span class="icon__divisao mb-5"></span>
+                <h2 class="informacao__subtitulo mb-5 text-center text-xl-start">Conheça nossos especialistas</h2>
+                <p class="informacao__paragrafo mb-5 text-center text-xl-start">Problemas tentando resolver o conflito entre os dois grandes domínios da física clássica: a mecânica newtoniana</p>
+                <a href="#" class="link-saber--mais mb-5 text-decoration-none text-xl-start">Saber mais <span class="link-seta ps-4"></span></a>
+            </div><!-- Container Textos -->
+
+            <figure class="d-flex justify-content-center">
+                <img src="assets/img/icon/icon-informacao.png" alt="" class="informacao__icon mb-5 mt-2 informacao__icon-mobile">
+            </figure>
+        </section>
+
+        <section class="dados">
+            <div class="container d-flex flex-wrap align-items-center justify-content-between">
+                <div class="dados__info d-flex flex-column align-items-center">
+                    <h3 class="info__numero m-0 text-center">15K</h3>
+                    <h5 class="info__descricao m-0 text-center">Clientes satisfeitos</h5>
+                </div><!-- Bloco de informações 1 -->
+
+                <div class="dados__info d-flex flex-column align-items-center">
+                    <h3 class="info__numero m-0 text-center">150K</h3>
+                    <h5 class="info__descricao m-0 text-center">Visitantes mensais</h5>
+                </div><!-- Bloco de informações 2 -->
+
+                <div class="dados__info d-flex flex-column align-items-center">
+                    <h3 class="info__numero m-0 text-center">15</h3>
+                    <h5 class="info__descricao m-0 text-center">Países integrados</h5>
+                </div><!-- Bloco de informações 3 -->
+
+                <div class="dados__info d-flex flex-column align-items-center">
+                    <h3 class="info__numero m-0 text-center">100+</h3>
+                    <h5 class="info__descricao m-0 text-center">Principais parceiros</h5>
+                </div><!-- Bloco de informações 4 -->
+            </div><!-- Container -->
+        </section>
+
+        <section class="container departamento">
+            <h5 class="deparamento__intro m-0">Conselhos de prática</h5>
+            <h2 class="departamento__subtitulo m-0 pt-3">Nosso Departamento</h2>
+            <p class="departamento__paragrafo m-0 pt-3">Problemas tentando resolver o conflito entre<br> os dois principais domínios da física clássica: a mecânica newtoniana</p>
+        
+            <article class="container__card row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <article class="card border-0 rounded-0">
+                        <img src="assets/img/icon/card-Cancer.svg" class="rounded-0" alt="...">
+
+                        <div class="card-body d-flex align-items-center justify-content-between pb-3">
+                            <p class="card__paragrafo-top m-0">Cuidados com o Câncer</p>
+                            <span class="icon__avaliacao"></span>
+                        </div>
+
+                        <div class="card-body pt-0">
+                            <h5 class="card__subtitulo m-0">Os melhores cirurgiões dentistas</h5>
+                            <p class="card__paragrafo-conteudo m-0 pt-3">Nós nos concentramos na ergonomia e em atender você onde você trabalha. É apenas um toque de tecla de distância.</p>
+                        </div>
+
+                        <div class="card-body d-flex align-items-center gap-2 pt-0">
+                            <span class="icon__download"></span>
+                            <p class="card__paragrafo-download m-0">15 Vendas</p>
+                        </div>
+
+                        <div class="card-body d-flex align-items-center gap-2 pt-0">
+                            <p class="card__paragrafo-preco m-0">R$ 16,48</p>
+                            <p class="card__paragrafo-preco card__paragrafo-color m-0">R$ 6,48</p>
+                        </div>
+
+                        <div class="card-body d-flex align-items-center gap-2 mb-4 pt-0">
+                            <a href="#" class="btn card__btn rounded-5" tabindex="-1" role="button" aria-disabled="true">Saber mais</a>
+                        </div><!-- Container botão -->
+                    </article>
+                </div><!-- Container Card -->
+
+                <div class="col">
+                    <article class="card border-0 rounded-0">
+                        <img src="assets/img/icon/card-Cancer.svg" class="rounded-0" alt="...">
+
+                        <div class="card-body d-flex align-items-center justify-content-between pb-3">
+                            <p class="card__paragrafo-top m-0">Caso de emergência</p>
+                            <span class="icon__avaliacao"></span>
+                        </div>
+
+                        <div class="card-body pt-0">
+                            <h5 class="card__subtitulo m-0">Agendamento on-line</h5>
+                            <p class="card__paragrafo-conteudo m-0 pt-3">Nós nos concentramos na ergonomia e em atender você onde você trabalha. É apenas um toque de tecla de distância.</p>
+                        </div>
+
+                        <div class="card-body d-flex align-items-center gap-2 pt-0">
+                            <span class="icon__download"></span>
+                            <p class="card__paragrafo-download m-0">15 Vendas</p>
+                        </div>
+
+                        <div class="card-body d-flex align-items-center gap-2 pt-0">
+                            <p class="card__paragrafo-preco m-0">R$ 16,48</p>
+                            <p class="card__paragrafo-preco card__paragrafo-color m-0">R$ 6,48</p>
+                        </div>
+
+                        <div class="card-body d-flex align-items-center gap-2 mb-4 pt-0">
+                            <a href="#" class="btn card__btn rounded-5" tabindex="-1" role="button" aria-disabled="true">Saber mais</a>
+                        </div>
+                    </article>
+                </div><!-- Container Card -->
+
+                <div class="col">
+                    <article class="card border-0 rounded-0">
+                        <img src="assets/img/icon/card-Cancer.svg" class="rounded-0" alt="...">
+
+                        <div class="card-body d-flex align-items-center justify-content-between pb-3">
+                            <p class="card__paragrafo-top m-0">Procedimentos indolores</p>
+                            <span class="icon__avaliacao"></span>
+                        </div>
+
+                        <div class="card-body pt-0">
+                            <h5 class="card__subtitulo m-0">Caso de emergência</h5>
+                            <p class="card__paragrafo-conteudo m-0 pt-3">Nós nos concentramos na ergonomia e em atender você onde você trabalha. É apenas um toque de tecla de distância.</p>
+                        </div>
+
+                        <div class="card-body d-flex align-items-center gap-2 pt-0">
+                            <span class="icon__download"></span>
+                            <p class="card__paragrafo-download m-0">15 Vendas</p>
+                        </div>
+
+                        <div class="card-body d-flex align-items-center gap-2 pt-0">
+                            <p class="card__paragrafo-preco m-0">R$ 16,48</p>
+                            <p class="card__paragrafo-preco card__paragrafo-color m-0">R$ 6,48</p>
+                        </div>
+
+                        <div class="card-body d-flex align-items-center gap-2 mb-4 pt-0">
+                            <a href="#" class="btn card__btn rounded-5" tabindex="-1" role="button" aria-disabled="true">Saber mais</a>
+                        </div>
+                    </article>
+                </div><!-- Container Card -->
+            </article>
+        
+        </section>
+
+        <section class="container preco">
+            <h5 class="preco__intro m-0">Conselhos de prática</h5>
+            <h2 class="preco__subtitulo m-0 pt-3">Preços</h2>
+            <p class="preco__paragrafo m-0 pt-3">Problemas tentando resolver o conflito entre<br> os dois principais domínios da física clássica: a mecânica newtoniana</p>
+
+            <article class="container__card row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <article class="card border-0 rounded-0  pt-5 ps-4 pe-4">
+
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <img src="assets/img/icon/card_preco-img--green.svg" class="rounded-0 w-50 text-center" alt="...">
+
+                            <h3 class="card__preco-subtitulo mb-0 text-uppercase">Livre</h3>
+                            <h6 class="card__preco-descricao text-center mb-0">Organize todos os aplicativos manualmente</h6>
+                            <h2 class="card__preco-valor text-center mb-0">R$ 19,00</h2>
+                            <h6 class="card__preco-mensalidade text-center mb-0">Por mês</h6>
+                            <p class="card__preco-info text-center mb-0">O Slate ajuda você a ver quantos dias a mais você precisa...</p>
+
+                            
+                            <div class="d-grid gap-2 w-100">
+                                <button class="btn  border-0 card__preco-btn pt-3 pb-3" type="button">Experimentar gratuitamente</button>
+                            </div><!-- Container botão -->
+                        </div><!-- Container conteudo-->
+
+                        <div class="d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-green.svg" alt="">
+                            <h6 class="itens-info mb-0">Atualizações ilimitadas de produtos</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-green.svg" alt="">
+                            <h6 class="itens-info mb-0">Atualizações ilimitadas de produtos</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-green.svg" alt="">
+                            <h6 class="itens-info mb-0">Atualizações ilimitadas de produtos</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-cinza.svg" alt="">
+                            <h6 class="itens-info mb-0">1 GB de armazenamento em nuvem</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2 mb-5">
+                            <img src="assets/img/icon/card-confirmacao-cinza.svg" alt="">
+                            <h6 class="itens-info mb-0">Suporte por e-mail e comunidade</h6>
+                        </div><!-- Container lista de beneficios -->
+                    </article><!-- Container Card -->
+                </div><!-- Container Col Grid-->
+
+                <div class="col">
+                    <article class="card card__background border-0 rounded-0  pt-5 ps-4 pe-4">
+                        
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <img src="assets/img/icon/card_preco-img--branco.svg" class="rounded-0 w-50 text-center" alt="...">
+
+                            <h3 class="card__preco-subtitulo mb-0 text-uppercase">Livre</h3>
+                            <h6 class="card__preco-descricao text-center text-white mb-0">Organize todos os aplicativos manualmente</h6>
+                            <h2 class="card__preco-valor text-center text-white mb-0">R$ 19,00</h2>
+                            <h6 class="card__preco-mensalidade text-center text-white mb-0">Por mês</h6>
+                            <p class="card__preco-info text-center text-white mb-0">O Slate ajuda você a ver quantos dias a mais você precisa...</p>
+
+                            
+                            <div class="d-grid gap-2 w-100">
+                                <button class="btn  border-0 card__preco-btn btn-color pt-3 pb-3" type="button">Experimentar gratuitamente</button>
+                            </div><!-- Container botão -->
+                        </div><!-- Container conteudo-->
+
+                        <div class="d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-green.svg" alt="">
+                            <h6 class="itens-info mb-0 text-white">Atualizações ilimitadas de produtos</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-green.svg" alt="">
+                            <h6 class="itens-info mb-0 text-white text-white">Atualizações ilimitadas de produtos</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-green.svg" alt="">
+                            <h6 class="itens-info mb-0 text-white">Atualizações ilimitadas de produtos</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-cinza.svg" alt="">
+                            <h6 class="itens-info mb-0 text-white">1 GB de armazenamento em nuvem</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2 mb-5">
+                            <img src="assets/img/icon/card-confirmacao-cinza.svg" alt="">
+                            <h6 class="itens-info mb-0 text-white">Suporte por e-mail e comunidade</h6>
+                        </div><!-- Container lista de beneficios -->
+                    </article><!-- Container Card -->
+                </div><!-- Container Col Grid-->
+
+                <div class="col">
+                    <article class="card border-0 rounded-0  pt-5 ps-4 pe-4">
+                        
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <img src="assets/img/icon/card_preco-img--green.svg" class="rounded-0 w-50 text-center" alt="...">
+
+                            <h3 class="card__preco-subtitulo mb-0 text-uppercase">Livre</h3>
+                            <h6 class="card__preco-descricao text-center mb-0">Organize todos os aplicativos manualmente</h6>
+                            <h2 class="card__preco-valor text-center mb-0">R$ 19,00</h2>
+                            <h6 class="card__preco-mensalidade text-center mb-0">Por mês</h6>
+                            <p class="card__preco-info text-center mb-0">O Slate ajuda você a ver quantos dias a mais você precisa...</p>
+
+                            
+                            <div class="d-grid gap-2 w-100">
+                                <button class="btn  border-0 card__preco-btn pt-3 pb-3" type="button">Experimentar gratuitamente</button>
+                            </div><!-- Container botão -->
+                        </div><!-- Container conteudo-->
+
+                        <div class="d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-green.svg" alt="">
+                            <h6 class="itens-info mb-0">Atualizações ilimitadas de produtos</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-green.svg" alt="">
+                            <h6 class="itens-info mb-0">Atualizações ilimitadas de produtos</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-green.svg" alt="">
+                            <h6 class="itens-info mb-0">Atualizações ilimitadas de produtos</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2">
+                            <img src="assets/img/icon/card-confirmacao-cinza.svg" alt="">
+                            <h6 class="itens-info mb-0">1 GB de armazenamento em nuvem</h6>
+                        </div><!-- Container lista de beneficios -->
+
+                        <div class="container__preco--itens d-flex justify-content-start align-items-center gap-2 mb-5">
+                            <img src="assets/img/icon/card-confirmacao-cinza.svg" alt="">
+                            <h6 class="itens-info mb-0">Suporte por e-mail e comunidade</h6>
+                        </div><!-- Container lista de beneficios -->
+                    </article><!-- Container Card -->
+                </div><!-- Container Col Grid-->
+            </article>
+        </section>
+
+        <section class="container feedback d-flex flex-column justify-content-center align-items-center">
+            <h5 class="feedback__intro m-0 text-center">Boletim de Notícias</h5>
+            <h2 class="feedback__subtitulo m-0 pt-2 text-center text-uppercase">Junte-se a nós</h2>
+            <p class="feedback__paragrafo m-0 pt-2 text-center">Problemas tentando resolver o conflito entre os dois grandes domínios da física clássica: a mecânica newtoniana</p>
+            
+            <div class="container__form input-group">
+                <input type="text" class="form-control border-0 pt-3 pb-3" placeholder="Seu e-mail" aria-label="Seu e-mail" aria-describedby="button-addon2">
+                <button class="btn border-0 feedback__botao" type="button" id="button-addon2">Inscreva-se</button>
+            </div><!-- Container botão -->
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p class="footer__direitos pb-4 pt-4 text-center text-white">&copy;2022 Bruno Tenório</p>
+    </footer>
+    
+    <!-- Javascript -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+</html>
